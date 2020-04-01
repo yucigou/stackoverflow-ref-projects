@@ -29,14 +29,10 @@ $('div').click(function(e) {
     .data(yPos)
     .enter()
     .append('circle')
-    .attr('x', function(d, i) {
-      return yPos[i];
+    .attr('cx', function(d) {
+      return d;
     })
-    .attr('y', function(d, i) {
-      return yPos[i];
-    })
-    .attr('cx', 20)
-    .attr('cy', 20)
+    .attr('cy', d => d)
     .attr('r', 20)
     .style('fill', '00ACCD');
 
