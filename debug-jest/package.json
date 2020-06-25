@@ -1,0 +1,16 @@
+{
+  "name": "debug-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello_world.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {}
+}
